@@ -106,5 +106,64 @@
         android:layout_height="wrap_content"
         android:text="TextView" />
 
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showText="true"
+        android:text="Switch"
+        android:textOff="NO"
+        android:textOn="SI"
+      />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Opcion TG apagada"
+        android:textOn="Opcion TG Encendida!"
+        android:text="TEXT TOGGLE" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:background="@color/colorGris"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Cambia Op 3" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Limpia RG" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A 2" />
+    </RadioGroup>
+
 
 </LinearLayout>
